@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4B6BBA2B63E8FA007A6071 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4B6BB92B63E8FA007A6071 /* LoginView.swift */; };
 		DC84F2D62B63506C00FE228C /* UserAuthenticationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84F2D52B63506C00FE228C /* UserAuthenticationApp.swift */; };
 		DC84F2D82B63506C00FE228C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84F2D72B63506C00FE228C /* ContentView.swift */; };
 		DC84F2DA2B63506E00FE228C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC84F2D92B63506E00FE228C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC4B6BB92B63E8FA007A6071 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DC84F2D22B63506C00FE228C /* UserAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC84F2D52B63506C00FE228C /* UserAuthenticationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthenticationApp.swift; sourceTree = "<group>"; };
 		DC84F2D72B63506C00FE228C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC4B6BB82B63E8DF007A6071 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC4B6BB92B63E8FA007A6071 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DC84F2C92B63506C00FE228C = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		DC84F2D42B63506C00FE228C /* UserAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				DC4B6BB82B63E8DF007A6071 /* Views */,
 				DC84F2D52B63506C00FE228C /* UserAuthenticationApp.swift */,
 				DC84F2D72B63506C00FE228C /* ContentView.swift */,
 				DC84F2D92B63506E00FE228C /* Assets.xcassets */,
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4B6BBA2B63E8FA007A6071 /* LoginView.swift in Sources */,
 				DC84F2D82B63506C00FE228C /* ContentView.swift in Sources */,
 				DC84F2D62B63506C00FE228C /* UserAuthenticationApp.swift in Sources */,
 			);
